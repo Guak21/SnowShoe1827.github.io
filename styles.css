@@ -73,6 +73,12 @@ display: block;
 	gap: 12px;
 }
 
+@media (max-width: 1290px) {
+	.logo {
+		top: 4px;
+	}
+}
+
 @media (max-width: 1200px) {
 	h1 {
 		text-align: center;
@@ -132,6 +138,13 @@ display: block;
 	}
 	
 }
+
+@media (max-width: 360px) {
+	.logo {
+		z-index: 0;
+	}
+}
+
 
 .cell {
 	background: #f3f4f6;
