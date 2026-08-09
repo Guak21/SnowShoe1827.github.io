@@ -139,9 +139,12 @@ display: block;
 	
 }
 
-@media (max-width: 360px) {
+@media (max-width: 410px) {
 	.logo {
 		z-index: 0;
+	}
+	.nav-toggle {
+		z-index: 10;
 	}
 }
 
